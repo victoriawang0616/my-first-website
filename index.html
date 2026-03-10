@@ -1,23 +1,125 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Website</title>
+    <meta charset="UTF-8">
+    <title>Jun Wang | Personal Website</title>
+
     <style>
         body {
-            background-color: #f0f0f0;
-            font-family: Arial;
+            font-family: Arial, sans-serif;
+            background-color: #f2f4f8;
+            margin: 0;
+            padding: 0;
         }
+
+        .container {
+            width: 60%;
+            margin: 60px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
         h1 {
-            color: blue;
+            margin-bottom: 10px;
+            color: #333;
         }
+
         p {
-            color: green;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .skills {
+            text-align: left;
+            margin-top: 30px;
+        }
+
+        .skills ul {
+            list-style-type: square;
+        }
+
+        .contact {
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #007acc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #005f99;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: gray;
         }
     </style>
 </head>
+
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This website is created using HTML and VS Code.</p>
+
+<div class="container">
+
+    <!-- Profile Photo -->
+    <img src="https://i.pravatar.cc/300" alt="Profile Photo">
+
+    <!-- Name -->
+    <h1>Jun Wang</h1>
+
+    <!-- Introduction -->
+    <p>
+        Hello! I am currently learning web development.
+        This is my personal website built using HTML, VS Code,
+        Git, and GitHub.
+    </p>
+
+    <!-- Skills Section -->
+    <div class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git & GitHub</li>
+            <li>Basic Web Design</li>
+        </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: junwang@email.com</p>
+        <p>GitHub: github.com/vickyjunwang</p>
+
+        <a class="btn" href="https://github.com/vickyjunwang" target="_blank">
+            Visit My GitHub
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2026 Jun Wang | Built with HTML
+    </div>
+
+</div>
+
 </body>
 </html>
-<p>This is a new update.</p>
