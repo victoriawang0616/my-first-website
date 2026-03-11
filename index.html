@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
 <meta charset="UTF-8">
+
 <title>Victoria Wang | Developer Portfolio</title>
 
 <style>
 
-body{
-font-family: Arial, sans-serif;
+*{
 margin:0;
-background:#f5f7fb;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, sans-serif;
+background:#f4f6fb;
 color:#333;
 }
 
@@ -21,31 +28,28 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 40px;
-background:#222;
+background:#1f1f1f;
 }
 
-.navbar h2{
+.logo{
 color:white;
-margin:0;
+font-size:20px;
+font-weight:bold;
 }
 
-.navbar a{
+.nav-links a{
 color:white;
 margin-left:20px;
 text-decoration:none;
 }
 
-.navbar a:hover{
+.nav-links a:hover{
 color:#4da3ff;
 }
 
 /* HERO */
 
 .hero{
-display:flex;
-flex-direction:column;
-align-items:center;
-justify-content:center;
 text-align:center;
 padding:80px 20px;
 background:white;
@@ -60,12 +64,13 @@ margin-bottom:20px;
 
 .hero h1{
 font-size:40px;
-margin:10px 0;
+margin-bottom:10px;
 }
 
 .hero p{
 color:#666;
 max-width:600px;
+margin:auto;
 }
 
 .btn{
@@ -107,6 +112,7 @@ background:#f8f9fc;
 padding:20px;
 border-radius:10px;
 text-align:center;
+font-weight:bold;
 }
 
 /* PROJECTS */
@@ -126,7 +132,7 @@ transition:0.3s;
 }
 
 .project-card:hover{
-transform:translateY(-5px);
+transform:translateY(-6px);
 box-shadow:0 10px 20px rgba(0,0,0,0.1);
 }
 
@@ -154,9 +160,9 @@ color:gray;
 
 <div class="navbar">
 
-<h2>Victoria Wang</h2>
+<div class="logo">Victoria Wang</div>
 
-<div>
+<div class="nav-links">
 
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
@@ -192,8 +198,9 @@ View My GitHub
 <h2>About Me</h2>
 
 <p>
-Hello! I am currently learning web development and building projects using HTML, CSS, Git and Java.
-I enjoy creating websites and improving my programming skills.
+Hello! I am currently learning web development and programming.
+I build websites using HTML and CSS and manage projects with Git and GitHub.
+I also practice Java programming and enjoy creating software projects.
 </p>
 
 </div>
@@ -207,10 +214,15 @@ I enjoy creating websites and improving my programming skills.
 <div class="skills-grid">
 
 <div class="skill-card">HTML</div>
+
 <div class="skill-card">CSS</div>
+
 <div class="skill-card">Git</div>
+
 <div class="skill-card">GitHub</div>
+
 <div class="skill-card">Java</div>
+
 <div class="skill-card">VS Code</div>
 
 </div>
@@ -229,7 +241,11 @@ I enjoy creating websites and improving my programming skills.
 
 <h3>Personal Website</h3>
 
-<p>My first personal website built with HTML.</p>
+<p>My first personal portfolio website built using HTML and CSS.</p>
+
+<a class="btn" href="https://github.com/VictoriaWang0616" target="_blank">
+View Project
+</a>
 
 </div>
 
@@ -237,7 +253,11 @@ I enjoy creating websites and improving my programming skills.
 
 <h3>Movie Poster Webpage</h3>
 
-<p>A webpage displaying movie posters and information.</p>
+<p>A webpage that displays movie posters and information.</p>
+
+<a class="btn" href="https://github.com/VictoriaWang0616" target="_blank">
+View Project
+</a>
 
 </div>
 
@@ -245,7 +265,11 @@ I enjoy creating websites and improving my programming skills.
 
 <h3>Employee Java Program</h3>
 
-<p>A Java project for managing employee data.</p>
+<p>A Java project that manages employee information.</p>
+
+<a class="btn" href="https://github.com/VictoriaWang0616" target="_blank">
+View Project
+</a>
 
 </div>
 
@@ -263,12 +287,12 @@ I enjoy creating websites and improving my programming skills.
 
 <p>
 GitHub:
-<a href="https://github.com/VictoriaWang0616">
+<a href="https://github.com/VictoriaWang0616" target="_blank">
 github.com/VictoriaWang0616
 </a>
 </p>
 
-<a class="btn" href="https://github.com/VictoriaWang0616">
+<a class="btn" href="https://github.com/VictoriaWang0616" target="_blank">
 Visit My GitHub
 </a>
 
